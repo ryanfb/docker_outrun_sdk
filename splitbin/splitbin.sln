@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "splitbin", "splitbin.vcproj", "{5887B5BD-BAA8-41CA-ABC4-0F6FF4EDC5DC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{5887B5BD-BAA8-41CA-ABC4-0F6FF4EDC5DC}.Debug.ActiveCfg = Debug|Win32
+		{5887B5BD-BAA8-41CA-ABC4-0F6FF4EDC5DC}.Debug.Build.0 = Debug|Win32
+		{5887B5BD-BAA8-41CA-ABC4-0F6FF4EDC5DC}.Release.ActiveCfg = Release|Win32
+		{5887B5BD-BAA8-41CA-ABC4-0F6FF4EDC5DC}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+For now I recommend just putting everything in c:\outrun.
+
+Run 'setupenv.bat' first to add gcc to your path (not stored permanently, just for the open console).
+
+The SDK has already been prebuilt, but you can run build_sdk.bat from the sdk directory to recreate the libs.
+
+You can run 'make.bat' or 'make.bat clean' from any of the samples subdirectories (except /common/) to build or clean a sample. It'll generate both ROM images and binaries for the bootloader.
+
+If you have MAME installed, you can either set the environment variable MAME_PATH to the MAME installation folder, or edit /bin/run.bat to include it. Default search locations are c:\mame and c:\outrun\mame.
+
+*** MAKE SURE TO BACKUP THE /roms/outrun/ SUBFOLDER IF YOU HAVE ONE ***
+
+And also have outrun.zip in the /roms/ subfolder. This is the regular original Rev. B ROM set.
+
+Once built, you can use 'run.bat' or 'run.bat debug' to copy the EPR-*.* files to the MAME's /roms/outrun/ folder and start MAME either with or without debugging.

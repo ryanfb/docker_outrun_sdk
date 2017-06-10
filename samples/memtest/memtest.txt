@@ -1,0 +1,4 @@
+From http://www.esacademy.com/en/library/technical-articles-and-documents/miscellaneous/software-based-memory-testing.html
+
+Copyright (c) 2000 by Michael Barr
+This article is adapted from material in Chapter 6 of the book Programming Embedded Systems in C and C++ (ISBN 1-56592-354-5). It is printed here with the permission of O'Reilly & Associates, Inc.
