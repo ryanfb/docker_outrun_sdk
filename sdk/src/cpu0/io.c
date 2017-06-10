@@ -60,8 +60,8 @@ void INPUT_TriggerAnalogInputSample (AnalogInputPort analogPort)
 uint8_t INPUT_ReadAnalogInput (bool bWait)
 {
 	// We could wait for the PPI on port A here. I'm not sure whether this is set up in MAME.
-	if (bWait)
-		while (PPI_Read_Register (PPI_READ_PORT_A) & PPI_A_ADIR);
+	// if (bWait)
+	// 	while (PPI_Read_Register (PPI_READ_PORT_A) & PPI_A_ADIR);
 	
 	return ((volatile uint8_t*)IO_ADC_BASE_PTR)[1];
 }
